@@ -5,7 +5,7 @@ require 'selenium-client'
 username="bogomips@mailinator.com"
 password="bogomips"
 
-10.times do 
+5.times do 
   firefox = Capybara::Session.new :selenium
   
   firefox.visit 'https://www.linkedin.com/uas/login'
